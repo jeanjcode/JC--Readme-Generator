@@ -26,4 +26,47 @@ const path = require("path");
 let  readTemplate = require("./readmeTemplate");
 
 
-userPrompts = () 
+const questions = () => {
+    return inquirer.prompt([    
+      {
+        type: "input",
+        name: "email",
+        message: "Enter your email address.",
+      },
+      {
+        type: "input",
+        name: "github",
+        message: "Enter your Github username.", 
+      },     
+      { 
+        type: "input",
+        name: "title",
+        message: "Enter your project title?",          
+      },
+      {
+        type: "input",
+        name: "description",
+        message: "Enter a description for your project.",
+      },
+      {
+        type: "input",
+        name: "installation",
+        message: "Enter the installation instructions for your project.",
+      },
+      {
+        type: "input",
+        name: "usage",
+        message: "Enter your usage information.",
+      },
+      {
+        type: "input",
+        name: "contribution",
+        message: "Enter your project contribution guidelines.",
+      },
+      {
+        type: "input",
+        name: "tests",
+        message: "Enter your test instructions.",
+      },       
+    ]);
+  };
