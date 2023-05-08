@@ -83,3 +83,12 @@ const questions = () => {
     ]);
   };
 
+    // Save to file
+const writeFile = (fileName, data) => {
+    try {
+      fs.writeFileSync(path.join(process.cwd(), fileName), data);
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
+
