@@ -21,7 +21,7 @@ When a user is prompted for information about the application repository, a high
 
 <br>
 
-### Installation
+## Installation
 
 
 The following walkthrough video, demonstrates its functionality.
@@ -31,7 +31,7 @@ The following walkthrough video, demonstrates its functionality.
 
 <br>
 
-### Usage
+## Usage
 <br>
 
 Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
@@ -71,11 +71,11 @@ The second README.MD is for your challenge and will include links to to the repo
 
 
 
-### Screenshot
+## Screenshot
 
 <br>
 
-### Technologies
+## Technologies
 
 - Node.js
 - Inquirer package
