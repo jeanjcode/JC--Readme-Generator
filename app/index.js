@@ -25,7 +25,7 @@ const fs = require("fs");
 const path = require("path");
 let  readTemplate = require("./readmeTemplate");
 
-
+    // Questions
 const questions = () => {
     return inquirer.prompt([    
     {
@@ -91,4 +91,6 @@ const writeFile = (fileName, data) => {
       console.log(error.message);
     }
   };
+
+
 
