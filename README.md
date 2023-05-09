@@ -23,50 +23,40 @@ When a user is prompted for information, a high-quality, professional README.md 
 
 ## Installation
 
+Make sure that your project includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
 
+1. Run 'npm init' to first set up the project 
+
+2. Then ' npm install --save inquirer@^8.0.0' to install the  inquirer module  
 
 
 
 
 ## Usage
+1. Right click on 'index.js' and select 'Open in Integrated Terminal'. 
 
-The following walkthrough video, demonstrates its functionality.
+2. Type 'node index.js' and enter.
 
-- Link to [link](https://drive.google.com/file...)
-- Link to github repo
+3. You will be given a series of prompts to answer. Each answer you give will displayed in the your README file.
 
-Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
-
-
-
-
+4. After the final question, the generated README file can be found in the 'app template' folder. 
 <br>
 
-When a user enters the project title, it's displayed as the title of the README.
 
-When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions, this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests.
-
-When a user chooses a license for their application from a list of options, a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under.
-
-When a user enters their GitHub username, it's added to the section of the README entitled Questions, with a link to their GitHub profile.
-
-When a user enters their email address, it's added to the section of the README entitled Questions, with instructions on how to reach them with additional questions.
-
-When a user clicks on the links in the Table of Contents, they are taken to the corresponding section of the README.
+The following [walkthrough](https://drive.google.com/file/d/1kby8G0P_TIlf-EWRwMMe2AxAkVFoRS5e/view?usp=sharing) video demonstrates the applications functionality.
 
 
 
 
-![command line gif](assets/)
 
 
 
 
-## Screenshot
+## Screenshots
 
 
 
-## Technologies
+## Technologies used
 
 - Node.js
 - Inquirer package
