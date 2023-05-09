@@ -92,5 +92,18 @@ const writeFile = (fileName, data) => {
     }
   };
 
+    // User generated readme file
+const generateReadme = () => {
+    questions()
+      .then((answers) => {
+        return writeFile("./app_template/README.md", readTemplate({ ...answers }));
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+  
+  generateReadme();  
+
 
 
