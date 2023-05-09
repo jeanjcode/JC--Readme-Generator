@@ -51,8 +51,17 @@ The following [walkthrough](https://drive.google.com/file/d/1kby8G0P_TIlf-EWRwMM
 
 
 
-
 ## Screenshots
+Prompts the user will answer:
+![ JC README Generator](./app/assets/command%20line.png)
+
+<br>
+
+Example of a generated README file:
+
+![ JC README Generator](./app/assets/generated%20readme.png)
+
+
 
 
 
